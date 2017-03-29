@@ -1,0 +1,11 @@
+<hibernate-mapping>
+	<class name="com.qingke.hibernate.Student" table="student">
+		<id name="id" column="id">
+			<generator class="assigned" />
+		</id>
+		
+		<property name="sid" column="sid"></property>
+		<property name="first" column="firstname"></property>
+		<property name="last" column="lastname"></property>
+	</class>
+</hibernate-mapping>
